@@ -1,0 +1,39 @@
+# deleteall word
+daw
+# add num
+20<Ctrl + A>
+# delete num
+20<Ctrl + X>
+# delete current word and edit
+ciw
+# UPPER LINE
+gU<ENTER>
+# lower line
+gu<ENTER>
+# Backspace @Intert mode
+    <Ctrl + h>
+# delete one word @Insert mode
+<Ctrl + w>
+# Move window (current row to top)
+zt
+# center
+zz
+# bottom
+zb
+# InsertNormalMode
+<Ctrl + o>
+# search one char in this row
+f{char}
+# ↑repeat
+;
+# ↑back
+,
+# replace string @visualmode
+r
+# copy @commandline mode
+:1,4copy 3 (:1,4t 3)
+# move @commandline mode
+:1,4move 3<ENTER> (:1,4m 3<ENTER>
+)
+# execute . command on normal mode for X times
+:'<,'>normal .
