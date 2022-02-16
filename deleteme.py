@@ -25,8 +25,8 @@ def hatch(n=4, theta=None):
     P[:, 1, 0] = X + np.random.normal(0, 0.025, n)
     P[:, 0, 0] = X + np.random.normal(0, 0.025, n)
     c, s = np.cos(theta), np.sin(theta)
-    Z = np.array([[c, s], [-s, c]])
-    return P @ Z.T
+    z = np.array([[c, s], [-s, c]])
+    return p @ z.t
 
 
 def seg_dists(p, a, b):
